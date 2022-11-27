@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(27, 27, 34);
+}
+h1{
+    color:rgb(236, 84, 38);
+    height: 100px;
+}
+#pedido{
+    color: rgb(236, 84, 38);
+    border: 50px;
+    border-color: black;
+}
+h2{
+    color: rgb(255, 255, 255);
+}
+ /* --------------------------------------ASIDE------------------------------------------*/ 
+#menu{
+    background-color: rgb(236, 84, 38);
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 25;
+    
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a{
+    color: aliceblue;
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    background-color: rgb(27, 31, 33);
+}
+.item-r{
+    float: right;
+}
+/*-------------------------------------------------------------------------------------- */ 
+
+nav{
+    background-color: rgb(69, 49, 169);
+    height: 100px;
+}
+section{
+    width: 70%;
+    right: 100%;
+    background-image: url(Danmachi/1.jpg);
+    height: 470px;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    background-color: rgb(27, 27, 34);
+    float: left;
+    height: 300px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+#dercha{
+    width: 300px;
+    height: 300px;
+    margin: 60px;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 50%;
+    box-shadow: black -68px 47px 92px;
+    transition: 1s;
+}
+#dercha:hover{
+    transform: scale(1.3);
+}
